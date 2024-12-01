@@ -10,6 +10,7 @@
                 <button class="oe_stat_button" type="object" name="get_account_move"
                         icon="fa-pencil" invisible=" not accountMove_ids">
                     <field string="Bill" name="accountMove_count" widget="statinfo"/>
+                    <field name="accountMove_ids"  invisible="1"/>
                 </button>
             </div>
         </field>
