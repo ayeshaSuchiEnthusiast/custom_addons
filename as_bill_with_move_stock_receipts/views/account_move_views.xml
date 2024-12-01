@@ -10,6 +10,7 @@
                 <button class="oe_stat_button" type="object" name="get_picking"
                         icon="fa-pencil" invisible=" not receipt_picking_ids">
                     <field string="Picking" name="receipt_picking_count" widget="statinfo"/>
+                    <field  name="receipt_picking_ids" invisible="1"/>
                 </button>
             </div>
         </field>
